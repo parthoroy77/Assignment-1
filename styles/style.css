@@ -76,3 +76,28 @@
     font-size: 15px;
     color: #6d6767;
 }
+/* My-plan-section */
+.my-plan-container{
+    text-align: center;
+    padding: 50px;
+}
+.my-plan-heading{
+    font-size: 40px;
+    font-weight: 400;
+}
+.my-plan-item{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 50px 0;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 400;
+    color: #6d6767;
+}
+/* gradient section */

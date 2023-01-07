@@ -101,3 +101,31 @@
     color: #6d6767;
 }
 /* gradient section */
+.gradient-container{
+    padding: 50px 220px;
+}
+.gradient-item{
+    height: 220px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, rgba(246, 81, 21, 0.973) , rgba(0, 0, 0, 0.082) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    border-radius: 10px;
+}
+.gradient-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    padding-top: 25px;
+    margin-left: 60px;
+}
+.gradient-btn{
+    align-items: center;
+    margin-left: 60px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: orangered;
+}
+/* footer section */

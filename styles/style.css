@@ -103,6 +103,7 @@
 /* gradient section */
 .gradient-container{
     padding: 50px 220px;
+    margin-bottom: 100px;
 }
 .gradient-item{
     height: 220px;
@@ -129,3 +130,53 @@
     color: orangered;
 }
 /* footer section */
+.footer-section{
+    background-color: #151414 ;
+    padding: 120px 220px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    
+}
+.contact-title{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact-description{
+    color:#ae9797;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 90px;
+    margin: 10px 0 20px 0;
+}
+.contact-icon{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+.subscribe-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.subscribe-box{
+    background-color: #151414;
+    height: 55px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+    margin: 10px 0;
+}
+.subscribe-btn{
+    align-items: center;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: orangered;
+}
